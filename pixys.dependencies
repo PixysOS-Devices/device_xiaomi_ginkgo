@@ -1,6 +1,38 @@
 [
-  {
-    "repository": "android_device_xiaomi_sm6125-common",
-    "target_path": "device/xiaomi/sm6125-common"
-  }
+   {
+      "repository":"ginkgo-eleven/device_xiaomi_sm6125-common",
+      "target_path":"device/xiaomi/sm6125-common",
+      "remote":"github",
+      "branch":"eleven"
+   },
+   {
+      "repository":"ginkgo-eleven/vendor_xiaomi",
+      "target_path":"vendor/xiaomi",
+      "remote":"github",
+      "branch":"eleven"
+   },
+   {
+      "repository":"ginkgo-eleven/kernel_xiaomi_sm6125",
+      "target_path":"kernel/xiaomi/sm6125",
+      "remote":"github",
+      "branch":"eleven"
+   },
+   {
+      "repository":"ginkgo-eleven/hardware_qcom_display",
+      "target_path":"hardware/qcom-caf/sm6125/display",
+      "remote":"github",
+      "branch":"eleven"
+   },
+   {
+      "repository":"ginkgo-eleven/hardware_qcom_media",
+      "target_path":"hardware/qcom-caf/sm6125/media",
+      "remote":"github",
+      "branch":"eleven"
+   },
+   {
+      "repository":"ginkgo-eleven/hardware_qcom_audio",
+      "target_path":"hardware/qcom-caf/sm6125/audio",
+      "remote":"github",
+      "branch":"eleven"
+   }
 ]
