@@ -33,9 +33,15 @@
       "branch":"eleven"
    },
    {
-    "repository": "kdrag0n/proton-clang",
-    "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
-    "branch": "master",
-    "remote": "github"
+      "repository":"kdrag0n/proton-clang",
+      "target_path":"prebuilts/clang/host/linux-x86/clang-proton",
+      "branch":"master",
+      "remote":"github"
+   },
+   {
+      "remote":"github",
+      "repository":"LineageOS/android_packages_resources_devicesettings",
+      "target_path":"packages/resources/devicesettings",
+      "branch":"lineage-18.0"
    }
 ]
