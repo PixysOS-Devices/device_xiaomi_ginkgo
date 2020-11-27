@@ -21,6 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common pixys stuff
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
 $(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
 # Inherit from ginkgo device
